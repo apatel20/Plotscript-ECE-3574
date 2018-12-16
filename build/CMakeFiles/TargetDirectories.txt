@@ -1,0 +1,6 @@
+C:/Users/Ankit Patel/Documents/ECE 3574/milestone0/plotscript-apatel20/build/CMakeFiles/unit_tests.dir
+C:/Users/Ankit Patel/Documents/ECE 3574/milestone0/plotscript-apatel20/build/CMakeFiles/interpreter.dir
+C:/Users/Ankit Patel/Documents/ECE 3574/milestone0/plotscript-apatel20/build/CMakeFiles/plotscript.dir
+C:/Users/Ankit Patel/Documents/ECE 3574/milestone0/plotscript-apatel20/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Ankit Patel/Documents/ECE 3574/milestone0/plotscript-apatel20/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ankit Patel/Documents/ECE 3574/milestone0/plotscript-apatel20/build/CMakeFiles/ZERO_CHECK.dir

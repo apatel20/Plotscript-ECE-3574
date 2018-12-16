@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\atom_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\environment_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\expression_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\interpreter_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\parse_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\token_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\unit_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\catch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ankit Patel\Documents\ECE 3574\milestone0\plotscript-apatel20\semantic_error.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C3C0E753-0ADD-39E1-B64A-4B4FE441BB18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{366B823F-57B7-39B5-B029-7A956F497651}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

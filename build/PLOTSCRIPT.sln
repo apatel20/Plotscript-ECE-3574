@@ -1,0 +1,91 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{839C4899-2A4C-325A-A7F7-F3BD3D8A92DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066} = {6C9F6DF4-9DE6-3ACF-B833-476DEA233066}
+		{D615D30D-841B-3297-A833-6439795B1A79} = {D615D30D-841B-3297-A833-6439795B1A79}
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59} = {0CF50930-AD16-3F12-A6DE-728C63EC9B59}
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656} = {3EE31B0E-C5CE-3A64-B610-141A27E6B656}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RUN_TESTS", "RUN_TESTS.vcxproj", "{DC5DE076-E02A-3534-88A5-F9DD2B7FDC26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066} = {6C9F6DF4-9DE6-3ACF-B833-476DEA233066}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interpreter", "interpreter.vcxproj", "{D615D30D-841B-3297-A833-6439795B1A79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066} = {6C9F6DF4-9DE6-3ACF-B833-476DEA233066}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plotscript", "plotscript.vcxproj", "{0CF50930-AD16-3F12-A6DE-728C63EC9B59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066} = {6C9F6DF4-9DE6-3ACF-B833-476DEA233066}
+		{D615D30D-841B-3297-A833-6439795B1A79} = {D615D30D-841B-3297-A833-6439795B1A79}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unit_tests", "unit_tests.vcxproj", "{3EE31B0E-C5CE-3A64-B610-141A27E6B656}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066} = {6C9F6DF4-9DE6-3ACF-B833-476DEA233066}
+		{D615D30D-841B-3297-A833-6439795B1A79} = {D615D30D-841B-3297-A833-6439795B1A79}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{839C4899-2A4C-325A-A7F7-F3BD3D8A92DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{839C4899-2A4C-325A-A7F7-F3BD3D8A92DB}.Release|Win32.ActiveCfg = Release|Win32
+		{839C4899-2A4C-325A-A7F7-F3BD3D8A92DB}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{839C4899-2A4C-325A-A7F7-F3BD3D8A92DB}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{DC5DE076-E02A-3534-88A5-F9DD2B7FDC26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC5DE076-E02A-3534-88A5-F9DD2B7FDC26}.Release|Win32.ActiveCfg = Release|Win32
+		{DC5DE076-E02A-3534-88A5-F9DD2B7FDC26}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{DC5DE076-E02A-3534-88A5-F9DD2B7FDC26}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.Debug|Win32.Build.0 = Debug|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.Release|Win32.ActiveCfg = Release|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.Release|Win32.Build.0 = Release|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{6C9F6DF4-9DE6-3ACF-B833-476DEA233066}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.Debug|Win32.Build.0 = Debug|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.Release|Win32.ActiveCfg = Release|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.Release|Win32.Build.0 = Release|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{D615D30D-841B-3297-A833-6439795B1A79}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.Debug|Win32.Build.0 = Debug|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.Release|Win32.ActiveCfg = Release|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.Release|Win32.Build.0 = Release|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{0CF50930-AD16-3F12-A6DE-728C63EC9B59}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.Debug|Win32.Build.0 = Debug|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.Release|Win32.ActiveCfg = Release|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.Release|Win32.Build.0 = Release|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{3EE31B0E-C5CE-3A64-B610-141A27E6B656}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68C3F22E-4218-3094-B8F8-447ADB4BC2D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
